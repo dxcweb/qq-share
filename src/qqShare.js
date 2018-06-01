@@ -17,9 +17,9 @@ const setShareInfo = opt => {
   });
 };
 async function share(option) {
-  // if (browser.name !== "qq") {
-  //   return;
-  // }
+  if (browser.name !== "qq") {
+    return;
+  }
   if (!window.mqq) {
     await loadQQSDK();
   }
