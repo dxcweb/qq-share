@@ -1,0 +1,25 @@
+{
+  "name": "qq-share",
+  "version": "1.0.0",
+  "config": {
+    "port": 80
+  },
+  "scripts": {
+    "build": "rc-tools run build --babel-runtime",
+    "start": "rc-tools run server --babel-runtime",
+    "pub": "rc-tools run publish --babel-runtime"
+  },
+  "devDependencies": {
+    "rc-tools": "^8.0.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "dependencies": {},
+  "files": [
+    "assets",
+    "examples",
+    "lib",
+    "src"
+  ],
+  "main": "./lib"
+}
